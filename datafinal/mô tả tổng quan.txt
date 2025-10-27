@@ -1,0 +1,21 @@
+ở đây bao gồm các data về:
+~7.1k QA đã dịch sang tiếng việt (khoảng 7.17k theo trang HF), chủ đề xoay quanh: Khái niệm & chiến lược giao dịch phổ biến (price action, trend, breakout…),Chỉ báo kỹ thuật,Quản trị rủi ro, cách đọc hỗ trợ/kháng cự, cấu trúc thị trường… (mang tính hướng dẫn, diễn giải khái niệm) 
+
+Q/A tiếng Việt: 350 câu Vietstock: Bộ 350 QA Vietstock là tập câu hỏi-trả lời tiếng Việt về khái niệm tài chính, thị trường và sự kiện chứng khoán, rất phù hợp làm nguồn RAG cho chatbot để giải thích thuật ngữ và cơ chế thị trường Việt Nam cho người mới 
+
+Dữ liệu thị trường lịch sử (2015-2025) của 25 cổ phiếu lớn nhất sàn hose:
+Giá OHLCV & chỉ báo kỹ thuật (price ohlcv,volatility,volume,return,rsi).
+
+Các chỉ số vĩ mô đa dạng gồm 3 loại: lãi suất liên NH overnight , USD/VND, lạm phát (CPI YoY).
+
+Quy trình & khung pháp lý: 
+
+Luật CK 2019, Luật sửa đổi 2024.
+NĐ 155/2020 
+Thông tư 96/2020/TT-BTC: công bố thông tin trên TTCK (rất hay được hỏi).
+Thông tư 120/2020/TT-BTC: giao dịch trên thị trường chứng khoán.
+Thông tư 119/2020/TT-BTC: về quản trị công ty đại chúng.
+Thông tư 118/2020/TT-BTC: hướng dẫn một số nội dung về chào bán, phát hành chứng khoán, chào mua công khai, mua lại cổ phiếu, đăng ký công ty đại chúng và hủy tư cách công ty đại chúng.
+Thông tư 101/2021/TT-BTC: quy định giao dịch ký quỹ (margin).
+Quy chế của Sở Giao dịch HOSE/HNX: quy định về lệnh giao dịch (LO, ATO, ATC, MP…), giờ giao dịch, biên độ giá.
+Quy định xử phạt vi phạm hành chính (Nghị định 156/2020/NĐ-CP, sửa đổi 128/2021/NĐ-CP): cần thiết cho các câu hỏi về mức phạt
