@@ -159,3 +159,9 @@ Thiết kế tối ưu cho môi trường **nghiên cứu – học thuật – 
 
 ---
 
+## 🏁 Cách sử dụng
+
+Download model trực tiếp **(https://huggingface.co/khoidan/Chatbot_stock_Vietnam_finetuned)**
+Hoặc liên hệ email **(phamminhkhoi.05.09.12@gmail.com)**
+
+
