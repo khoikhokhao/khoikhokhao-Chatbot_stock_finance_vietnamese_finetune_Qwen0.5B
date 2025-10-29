@@ -1,0 +1,128 @@
+1. RSI14 – Relative Strength Index (14 ngày)
+
+Khái niệm:
+RSI là chỉ báo động lượng cho biết giá đang quá mua (overbought) hay quá bán (oversold) dựa trên sức mạnh tương đối của các chuỗi tăng giá so với giảm giá trong một giai đoạn (ở đây là 14 phiên giao dịch).
+Ý nghĩa:
+
+RSI ∈ [0, 100].
+
+RSI > 70 → thị trường đang quá mua → khả năng điều chỉnh giảm.
+
+RSI < 30 → thị trường đang quá bán → khả năng hồi phục.
+2.Relative Volume 20 – Khối lượng tương đối 20 ngày
+
+Khái niệm:
+Đo xem khối lượng giao dịch hiện tại lớn hay nhỏ hơn mức trung bình 20 phiên gần nhất.
+Ý nghĩa:
+
+Nếu vol_rel20 > 1 → khối lượng hôm nay cao hơn mức trung bình 20 ngày (có thể đang có dòng tiền mạnh vào/ra).
+
+Nếu vol_rel20 < 1 → khối lượng thấp hơn mức trung bình → giao dịch trầm lắng.
+Khái niệm:
+3. Volatility 20 – Độ biến động 20 ngày (dựa trên r1)
+
+Khái niệm:
+Volatility đo độ dao động của lợi suất giá (returns).
+
+Ý nghĩa:
+
+Volatility cao → giá biến động mạnh, rủi ro cao hơn.
+
+Volatility thấp → giá ổn định hơn.
+4. log return 
+r1 mà bạn dùng chính là log return – lợi suất logarit giữa giá đóng cửa của phiên hôm nay và phiên hôm qua.
+Ý nghĩa
+
+r1 dương → giá tăng so với hôm trước.
+
+r1 âm → giá giảm so với hôm trước.
+
+Giá trị thường được biểu diễn ở dạng thập phân (0.01 ≈ 1%).
+
+Dùng tỉ lệ hơn kém (simple return) thì trực quan và dễ hiểu cho báo cáo ngắn hạn.
+
+Dùng log return (như r1) thì tiện lợi hơn cho tính toán, mô hình hóa, và phản ánh đúng hiệu ứng cộng dồn & tăng–giảm.
+
+Vì vậy trong phân tích định lượng, đặc biệt là dự báo danh mục như của bạn, log return là chuẩn mực hơn.
+
+
+5. OHLCV
+🌟 1. OHLCV là gì?
+
+OHLCV là viết tắt của:
+
+Chữ cái	Tên đầy đủ 	Ý nghĩa
+O	Open	Giá mở cửa – giá khớp lệnh đầu tiên của phiên giao dịch (hoặc của cây nến nếu là dữ liệu intraday: 1h, 5m…)
+H	High	Giá cao nhất trong suốt khoảng thời gian của cây nến (phiên/ngày/tuần)
+L	Low	Giá thấp nhất trong khoảng thời gian đó
+C	Close	Giá đóng cửa – giá khớp lệnh cuối cùng của phiên/cây nến
+V	Volume	Khối lượng giao dịch – tổng số cổ phiếu/hợp đồng được mua bán trong cùng khoảng thời gian
+
+6. Lạm phát YoY (CPI YoY – Consumer Price Index year-over-year)
+🔹 Khái niệm
+
+CPI YoY đo mức thay đổi % của chỉ số giá tiêu dùng so với cùng kỳ năm trước:
+Phản ánh tốc độ tăng giá hàng hóa & dịch vụ của nền kinh tế qua 12 tháng.
+
+Là thước đo lạm phát phổ biến nhất tại Việt Nam.
+🔹 Tác động lên chứng khoán
+
+CPI YoY ↑ (lạm phát cao):
+
+Chi phí đầu vào DN ↑ → lợi nhuận biên giảm, cổ phiếu giảm giá.
+
+Ngân hàng Nhà nước (SBV) thường thắt chặt tiền tệ (tăng lãi suất, hạn chế tín dụng) → dòng tiền rút khỏi chứng khoán → TTCK chịu áp lực giảm.
+
+Đặc biệt ảnh hưởng đến nhóm tiêu dùng, bán lẻ, sản xuất nguyên vật liệu.
+
+CPI YoY ↓ hoặc ổn định (~2–3%):
+
+7. Tỷ giá USD/VND
+🔹 Khái niệm
+
+Tỷ giá USD/VND = số đồng Việt Nam cần để đổi 1 USD.
+
+Tại VN, tỷ giá biến động do cung-cầu ngoại tệ, dòng vốn FDI/FII, chính sách của NHNN.
+
+🔹 Tác động lên chứng khoán
+
+USD/VND ↑ (VNĐ mất giá):
+
+Doanh nghiệp nhập khẩu (xăng dầu, hàng hóa, nguyên liệu) chịu tăng chi phí, lợi nhuận giảm → cổ phiếu nhóm này giảm.
+
+Doanh nghiệp xuất khẩu (thủy sản, dệt may, thép) hưởng lợi vì doanh thu USD quy đổi sang VNĐ cao hơn → cổ phiếu nhóm này có thể tăng.
+
+Nhà đầu tư ngoại có thể rút vốn do rủi ro tỷ giá tăng → áp lực bán ròng → thị trường giảm.
+
+NHNN có thể phải tăng lãi suất để giữ ổn định VND → kìm hãm TTCK.
+
+USD/VND ↓ (VNĐ mạnh):
+
+Giảm chi phí nhập khẩu → tích cực cho DN nhập khẩu, tiêu dùng.
+
+Nhưng DN xuất khẩu có thể bị bất lợi do doanh thu ngoại tệ quy đổi ít hơn.
+Chính sách tiền tệ thường nới lỏng / trung tính → dòng tiền rẻ hơn → tích cực cho TTCK.
+8. Lãi suất liên ngân hàng qua đêm (Interbank Overnight Rate)
+🔹 Khái niệm
+
+Là lãi suất các ngân hàng thương mại vay mượn lẫn nhau qua đêm để đảm bảo thanh khoản ngắn hạn.
+
+Được xem là chỉ báo sớm về trạng thái thanh khoản tiền tệ trên thị trường:
+
+Thấp → thanh khoản hệ thống dồi dào.
+
+Cao → thanh khoản căng thẳng, NHNN có thể đang hút tiền.
+
+🔹 Tác động lên chứng khoán
+
+Lãi suất ON ↑:
+
+Chi phí vốn của ngân hàng và DN ↑ → lãi vay thị trường tăng → giảm hoạt động đầu tư & tiêu dùng.
+
+Dòng tiền có xu hướng chuyển từ cổ phiếu sang gửi ngân hàng / trái phiếu → TTCK giảm.
+
+Lãi suất ON ↓:
+
+Thanh khoản rẻ, dòng tiền rảnh rỗi nhiều → khuyến khích đổ vào TTCK → thị trường thường tích cực.
+
+Đây là chỉ báo nhạy hơn so với lãi suất điều hành vì phản ứng tức thì với cung-cầu tiền.
